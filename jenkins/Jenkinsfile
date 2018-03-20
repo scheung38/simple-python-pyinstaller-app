@@ -4,7 +4,11 @@ pipeline {
 
         stage(){
 
-            sh
+
+        }
+
+        stage(){
+
         }
 
         if (test == null) {
