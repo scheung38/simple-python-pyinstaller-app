@@ -1,6 +1,26 @@
 pipeline {
     agent none
     stages {
+
+        stage(){
+
+            sh
+        }
+
+        if (test == null) {
+            echo
+        } else {
+
+        }
+
+        stage('MyTest') {
+
+        }
+        steps() {
+
+
+        }
+
         stage('Build') {
             agent {
                 docker {
